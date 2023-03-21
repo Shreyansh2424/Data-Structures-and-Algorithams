@@ -1,4 +1,4 @@
-#First Program in Python:
+#(L-1)First Program in Python:
 
 #print("Hello World")
 #print("I want to be a successful person ")
@@ -52,9 +52,102 @@
 #print(type(a))
 
 #2. (How to convert String to Integer)
-a = int(input())
-print(a)
-print(type(a))
+#a = int(input())
+#print(a)
+#print(type(a))
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#(L - 2) Introduction to Data Structures:
+
+#1. What are Data Structures?
+#-> (The basic Python data structures in Python include list, set, tuples, and dictionary.Each of the data structures is unique in its own way. Data structures are “containers” that organize and group data according to type. The data structures differ based on mutability and order.)
+# ---------------------------------------------------------------
+
+#2. Divisionds of Data Structures:
+#->                 Data Stuctures
+
+#Linear D.S (                              Non-Linear D.S (
+# Array                                      Binary Tree
+# Linked List                                Heap                
+# Stack                                      Hash Table
+# Queue                                      Graphs.)
+# Matrix.)
+# ---------------------------------------------------------------
+
+#3.   Data Structures Specific to Python:
+#->. These Data Structures are specific to Python language and they give greater flexibility in storing the different types of data and faster proccessing in Python Enviorment.
+
+#*. Python Specific Data Structures.
+
+# list
+# tuple
+# Dictionary
+# set
+
+#*. Python can be divided into two type of Data Structures.
+                  #Data Structure
+
+#Built-in-D.S ;                           User-defined-D.S;
+# List                                    Stack
+# Dictionary                              Queue
+# Tuple                                   Tree
+# Set                                     Lincked List
+#                                         Graph
+#----------------------------------------------------------------
+
+#4. Lists in Python:
+#Ans - Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+# List can be run in Square brackets. Lists can contain Strings as wll as Numbers also.
+# The elements within the Lists are seprated by Commas and enclosed within the Square brackets.Lists are mutable.
+# ---------------------------------------------------------------
+
+#5. Implementing Lists in Python:
+#list = []
+#print(list)
+
+#list = [1,2,3,4]
+#print(list)
+
+#list = [1,2,3,"Hey",4]
+#print(list)
+
+#list = ["you", "can", "do", "it"]
+#print(list)
+
+#* Nested Lists(List inside list)
+#list = [["hey","good"],['good-morning']]
+#print(list)
+
+#* To chech the Size of the list(by using *len()* method):
+#list1 = []
+#print(len(list1))
+
+#list2 = [1,2,3,4]
+#print(len(list2))
+
+#list3 = ["hey", "there"]
+#print(len(list3))
+
+#list4 = [1,2,3,4,5,"hey"]
+#print(len(list4))
+#----------------------------------------------------------------
+
+#6. Tuples in Python:
+#1* What is Tuple?
+#- Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
+
+tuple1 = (1, '3', 2, 4)
+print(type(tuple1))
+
+my_tuple = (1,)
+type(my_tuple)
+
+my_tu
+
+
+
+
+
 
 
 
