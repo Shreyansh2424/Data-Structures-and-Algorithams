@@ -130,24 +130,60 @@
 
 #list4 = [1,2,3,4,5,"hey"]
 #print(len(list4))
-#----------------------------------------------------------------
+#---------------------------------------------------------------
 
 #6. Tuples in Python:
 #1* What is Tuple?
 #- Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
 
-tuple1 = (1, '3', 2, 4)
-print(type(tuple1))
+#tuple1 = (1, '3', 2, 4)
+#print(type(tuple1))
 
-my_tuple = (1,)
-type(my_tuple)
+#my_tuple = (1,)
+#type(my_tuple)
 
-my_tu
+#tuple3 = ('hey',2 ,5, 3, 'hey')
+#print(tuple3)
 
+#---------------------------------------------------------------
 
+#7. Properties of Tuple:
+#- Tuple items are ordered, unchangeable, and allow duplicate values. Tuple items are indexed, the first item has index [0] , the second item has index [1] etc.
 
+#---------------------------------------------------------------
 
+#8. Maps in Python:
+#- Map in Python is a function that works as an iterator to return a result after applying a function to every item of an iterable (tuple, lists, etc.). It is used when you want to apply a single transformation function to all the iterable elements. The iterable and function are passed as arguments to the map in Python
 
+#---------------------------------------------------------------
+
+#9. Dictionaries in Python:
+#- . Dictionaries are used with curly brackets.Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and do not allow duplicates. As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+
+#---------------------------------------------------------------
+
+#10. Creating Dictionary:
+
+#dict = {}
+#print(dict)
+
+#dict = {1:'abcd', 2:'efgh',3:'ijkl'}
+#print(dict)
+
+#dict = {'Name':'Class',1:[1,2,3,4,5]}
+#print(dict)
+
+#Dict ={1: 'DSA', 2:'Python',3:'ShreyxnshXR Gaming'}
+#print(Dict)
+
+#---------------------------------------------------------------
+
+#11. Set Data Structures in Python:
+#- Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage. A set is a collection which is unordered, unchangeable*, and unindexed. * Note: Set items are unchangeable, but you can remove items and add new items.
+
+set1 = set()
+print(set1)
+type(set1)
 
 
 
